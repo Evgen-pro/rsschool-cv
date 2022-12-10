@@ -6,6 +6,7 @@
 + __phone__: +375 29 518 91 48
 + __e-mail__: evgen.polotsk@gmail.com
 + __github__: Evgen-pro
++ __codepen__: Evgen-pro
 
 ### About me
 ---
