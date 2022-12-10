@@ -1,1 +1,1 @@
-# [rsschool-cv](https://github.com/Evgen-pro/rsschool-cv)
+# [rsschool-cv](https://evgen-pro.github.io/rsschool-cv/cv)
