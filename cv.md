@@ -44,5 +44,5 @@ console.log(perimetrOrSquare(5, 5))
 
 ### Languages
 ---
-+ Russian (native speaker)
-+ English (A2, B1 in process)
++ Russian language (native speaker)
++ English language (A2, B1 in process)
