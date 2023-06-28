@@ -39,3 +39,20 @@ const cityInfo = (city, index) =>
 
 myCities.forEach((city, index) => console.log(cityInfo(city, index)))
 ```
+
+## Education
+
+---
+
+- **University:** Polotsk State University, oil and gas processing and industrial organic synthesizing
+- **Courses:**
+
+  - [Git](https://www.youtube.com/watch?v=O00FTZDxD0o&t=813s&ab_channel=BogdanStashchuk)
+  - [Udemy: Полный курс по JavaScript + React - с нуля до результата](https://www.udemy.com/course/javascript_full/)
+
+## Languages
+
+---
+
+- **Russian:** native speaker
+- **English:** pre-Intermediate
