@@ -1,7 +1,31 @@
-* {
-	padding: 0px;
-	margin: 0px;
-	border: none;
+html {
+	scroll-behavior: smooth; 
+  }
+
+body {
+	font-family: 'Urbanist', sans-serif;
+	/* min-height: 100vh; */
+	/* display: flex;
+	flex-direction: column;
+	justify-content: space-between; */
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
 }
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 24px;
+}
+
+/* header */
+
+.nav-list{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 
 
