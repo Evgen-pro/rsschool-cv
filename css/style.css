@@ -27,6 +27,7 @@ body {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	color: #937F31;
+	margin-top: 16px;
 }
 
 /* header */
@@ -62,9 +63,7 @@ img {
 
 .header-row {
 	display: flex;
-	justify-content: space-between;
-	column-gap: 1px;
-	
+	justify-content: space-between;	
 }
 
 .header-content-heading {
@@ -79,11 +78,14 @@ img {
 .contacts__container {
 	display: flex;
 	gap: 50px;
+	
 }
 
 .contacts__wrapper-left {
 	max-width: 300px;
 	width: 100%;
+	background-color: #F7F3D7;
+
 }
 
 .contacts-item:not(:last-child) {
