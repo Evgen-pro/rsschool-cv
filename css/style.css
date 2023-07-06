@@ -72,13 +72,12 @@ img {
 }
 
 .header-title {
-	margin-bottom: 22px;
+	margin: 16px 10px 20px;
 }
 
 .contacts__container {
 	display: flex;
-	gap: 50px;
-	
+	gap: 50px;	
 }
 
 .contacts__wrapper-left {
@@ -92,8 +91,37 @@ img {
 	margin-bottom: 5px;
 }
 
+.contacts-item {
+  margin: 0 10px 16px;
+  color: #534C40;
+}
 
+.contacts__wrapper-right {
+  background-color: #F7F6F0;
+}
 
+.contacts-item-link {
+  color: #534C40;
+}
 
+.contacts-item-link:hover {
+  color: #937131;
+}
+
+.contacts__wrapper-right p{
+  margin: 0 10px 16px;
+  color: #534F40;
+}
+
+/* Code example */
+
+.container code {
+  padding-left: 10px;
+  color: #534F40;
+}
+
+.container code-example {
+  background-color: #F7F1EB;
+}
 
 
