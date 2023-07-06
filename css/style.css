@@ -121,11 +121,15 @@ img {
 }
 
 .code-example-row{
-  background-color: #F7F1EB;
+  /* background-color: #F7F1EB; */
 }
 
 .code-example-row p {
   padding: 0px 10px 16px;
+}
+
+.container code {
+  background-color: #F7F1EB;
 }
 
 /* My project */
@@ -164,7 +168,7 @@ img {
 }
 
 .footer_content img {
-  width: 100px;
+  width: 65px;
 }
 
 .footer_content p {
