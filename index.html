@@ -64,21 +64,53 @@
           </div>
       </section>
       <section class="code-example">
-        <div class="container code-example">
-          <h2 class="header-title">Code example</h2>
-          <p>
-            <code>
-              const myCities = ['London', 'New York', 'Singapore'] <br>
-              const cityInfo = (city, index) => <br>
-              `${city} is at the index ${index} in the myCities array` <br>
-              myCities.forEach((city, index) => console.log(cityInfo(city, index)))
-            </code>
-          </p>
+        <div class="container">
+          <div class="code-example-row">
+            <h2 class="header-title">Code example</h2>
+            <p>
+              <code>
+                const myObject = { <br>
+                  key1: true, <br>
+                  key5: 10, <br>
+                  key3: 'abc', <br>
+                  key4: null, <br>
+                  key10: NaN, <br>
+                } <br>
+                <br>
+                const objectKeys = Object.keys(myObject) <br>
+                
+                objectKeys.forEach((key) => { <br>
+                  if (key === 'key1' || key === 'key3') { <br>
+                    console.log(myObject[key]) <br>
+                  } <br>
+                })                
+              </code>
+            </p>
+          </div>
         </div>
+      </section>
+
+      <section class="my-project">
+        <div class="container contacts__container">
+          <div class="project__wrapper-left">
+            <h2 class="header-title">My project</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, illo.</p>
+          </div>
+          <div class="skills__wrapper-right">
+            <h2 class="header-title">Skills</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eligendi, quos porro tempore vitae esse hic aperiam quam voluptates ex tempora pariatur debitis excepturi quod, assumenda libero a corporis. Officia!</p>
+          </div>
+        </div>
+
       </section>
       </main>
     <footer class="footer">
       <div class="container">
+        <div class="footer_content">
+          <a href="#" class="footer__github"><img src="#" alt="logo-github"></a>
+          <p>2023</p>
+          <a href="https://rs.school/js/" class="footer-rs-school"><img src="https://rs.school/images/rs_school_js.svg" alt="rs school"></a>
+        </div>
 
       </div>
     </footer>

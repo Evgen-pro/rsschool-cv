@@ -63,7 +63,7 @@ img {
 
 .header-row {
 	display: flex;
-	justify-content: space-between;	
+	justify-content: space-between;
 }
 
 .header-content-heading {
@@ -120,8 +120,53 @@ img {
   color: #534F40;
 }
 
-.container code-example {
+.code-example-row{
   background-color: #F7F1EB;
 }
 
+.code-example-row p {
+  padding: 0px 10px 16px;
+}
 
+/* My project */
+
+.project__wrapper-left {
+  max-width: 300px;
+  width: 100%;
+  background-color: #F7F3D7;
+}
+
+.project__wrapper-left p {
+  padding: 0 10px 16px;
+  color: #534940;
+}
+
+.skills__wrapper-right {
+  background-color: #F2F5F7;
+}
+
+.skills__wrapper-right p{
+  margin: 0 10px 16px;
+  color: #534940;
+}
+
+/* footer */
+
+.footer {
+  background-color: #F7F3D7;
+}
+
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.footer_content img {
+  width: 100px;
+}
+
+.footer_content p {
+  color: #534940;
+}
