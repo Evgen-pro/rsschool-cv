@@ -52,7 +52,7 @@ body {
 }
 
 .nav-link:hover {
-	color: rgb(255, 13, 13);
+	color: #534940;
 }
 
 /* main */
@@ -121,15 +121,11 @@ img {
 }
 
 .code-example-row{
-  /* background-color: #F7F1EB; */
+  background-color: #F7F1EB;
 }
 
 .code-example-row p {
   padding: 0px 10px 16px;
-}
-
-.container code {
-  background-color: #F7F1EB;
 }
 
 /* My project */
