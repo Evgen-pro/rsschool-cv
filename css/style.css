@@ -97,7 +97,15 @@ img {
 }
 
 .contacts__wrapper-right {
+  width: 100%;
   background-color: #F7F6F0;
+  
+}
+
+.contacts__wrapper-right-inner {
+	display: flex;
+	justify-content: space-between;
+	gap: 60px;
 }
 
 .contacts-item-link {
@@ -113,6 +121,8 @@ img {
   color: #534F40;
 }
 
+
+
 /* Code example */
 
 .container code {
@@ -124,9 +134,10 @@ img {
   background-color: #F7F1EB;
 }
 
-.code-example-row p {
-  padding: 0px 10px 16px;
+.code-example-row pre {
+  padding: 10px 0px 16px;
 }
+
 
 /* My project */
 
@@ -149,6 +160,26 @@ img {
   margin: 0 10px 16px;
   color: #534940;
 }
+
+.project__wrapper-left img {
+	width: 260px;
+	margin: 0px 20px;
+  transition: transform 0.25s;
+}
+
+.project__wrapper-left p{
+  padding-top: 10px;
+	text-align: center;
+}
+
+.project__wrapper-left p:hover {
+  color: #937F31;
+}
+
+.project__wrapper-left img:hover {
+  transform: scale(1.05);
+}
+
 
 /* footer */
 
