@@ -51,6 +51,10 @@ body {
 	transition: 0.3s;
 }
 
+.nav-item {
+  list-style: none;
+}
+
 .nav-link:hover {
 	color: #534940;
 }
@@ -94,6 +98,7 @@ img {
 .contacts-item {
   margin: 0 10px 16px;
   color: #534C40;
+  list-style: none;
 }
 
 .contacts__wrapper-right {
@@ -154,6 +159,7 @@ img {
 
 .skills__wrapper-right {
   background-color: #F2F5F7;
+  width: 100%;
 }
 
 .skills__wrapper-right p{
@@ -169,7 +175,7 @@ img {
 
 .project__wrapper-left p{
   padding-top: 10px;
-	text-align: center;
+  text-align: center;
 }
 
 .project__wrapper-left p:hover {
@@ -180,6 +186,17 @@ img {
   transform: scale(1.05);
 }
 
+.skills-list {
+	/* display: block; */
+	list-style: circle;
+	margin-left: 30px;
+	list-style-position: outside;
+}
+
+.skills-item {
+	display: list-item;
+  color: #534940;
+}
 
 /* footer */
 
@@ -194,10 +211,19 @@ img {
   
 }
 
-.footer_content img {
-  width: 65px;
+.github-logo {
+	width: 50px;
+}
+
+.rs-logo {
+	width: 80px;
 }
 
 .footer_content p {
   color: #534940;
 }
+
+.footer_content a {
+	color: #534940;
+}
+
