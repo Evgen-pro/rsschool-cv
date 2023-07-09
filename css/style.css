@@ -88,7 +88,6 @@ img {
 	max-width: 300px;
 	width: 100%;
 	background-color: #F7F3D7;
-
 }
 
 .contacts-item:not(:last-child) {
@@ -139,11 +138,6 @@ img {
   background-color: #F7F1EB;
 }
 
-.code-example-row pre {
-  padding: 10px 0px 16px;
-}
-
-
 /* My project */
 
 .project__wrapper-left {
@@ -187,7 +181,6 @@ img {
 }
 
 .skills-list {
-	/* display: block; */
 	list-style: circle;
 	margin-left: 30px;
 	list-style-position: outside;
@@ -208,7 +201,6 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .github-logo {

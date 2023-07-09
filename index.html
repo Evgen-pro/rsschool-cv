@@ -21,12 +21,12 @@
             <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
             <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
             <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">My projects</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main class="main" >
-
       <section class="header-content">
         <div class="container">
           <div class="header-row">
@@ -42,8 +42,6 @@
           </div>
         </div>
       </section>
-
-    
       <section class="contacts" id="contacts">
           <div class="container contacts__container">
             <div class="contacts__wrapper-left">
@@ -69,30 +67,31 @@
           <h2 class="header-title" id="code">Code example</h2>
           <div class="code-example-row">
               <pre>
-                const myObject = { 
-                  key1: true, 
-                  key5: 10, 
-                  key3: 'abc', 
-                  key4: null, 
-                  key10: NaN, 
-                } 
-                
-                const objectKeys = Object.keys(myObject) 
-                
-                objectKeys.forEach((key) => { 
-                  if (key === 'key1' || key === 'key3') { 
-                    console.log(myObject[key]) 
+                <code>
+                  const myObject = { 
+                    key1: true, 
+                    key5: 10, 
+                    key3: 'abc', 
+                    key4: null, 
+                    key10: NaN, 
                   } 
-                })                
+                  
+                  const objectKeys = Object.keys(myObject) 
+                  
+                  objectKeys.forEach((key) => { 
+                    if (key === 'key1' || key === 'key3') { 
+                      console.log(myObject[key]) 
+                    } 
+                  })            
+                </code>
               </pre>         
           </div>
         </div>
       </section>
-
       <section class="my-project">
         <div class="container contacts__container">
           <div class="project__wrapper-left">
-            <h2 class="header-title">My project</h2>
+            <h2 class="header-title" id="projects">My project</h2>
             <a class="project-link" href="https://evgen-pro.github.io/resume_2023/" target="_blank"><img src="./assets/img/freelancer_cv.png" alt="freelancer_cv"><p>Freelancer CV</p></a>
           </div>
           <div class="skills__wrapper-right">
@@ -106,13 +105,12 @@
             </ul>
           </div>
         </div>
-
       </section>
       </main>
     <footer class="footer">
       <div class="container">
         <div class="footer_content">
-          <a href="https://github.com/Evgen-pro" class="footer__github" target="_blank"><img class="github-logo" src="./assets/img/github-mark.png" alt="logo-github" width="10px"></a>
+          <a href="https://github.com/Evgen-pro" class="footer__github" target="_blank"><img class="github-logo" src="./assets/img/github-mark.png" alt="logo-github"></a>
           <p>2023</p>
           <a href="https://rs.school/js/" class="footer-rs-school" target="_blank"><img class="rs-logo" src="https://rs.school/images/rs_school_js.svg" alt="rs-school"></a>
         </div>
