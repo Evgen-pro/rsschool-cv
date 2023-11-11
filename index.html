@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CV</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">My projects</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main" >
+      <section class="header-content">
+        <div class="container">
+          <div class="header-row">
+            <div class="header-content-img">
+              <img src="./assets/img/my_photo.jpg" alt="my_photo">
+            </div>
+            <div class="header-content-heading">
+              <h1 class="header-heading" id="summary">Yauheni Pratasevich</h1>
+              <h2 class="header-title">Frontened developer</h2>
+              <p>My name is Evgeniy. I live in Novopolotsk. I’m working as operator in the workshop of the production of heat and electricity. At my job I do process management. If we talk about my personal qualities, then I’d describe myself as a goal-oriented and hardworking person with good organizational skills and strategic thinking. Also, I have many hobbies, for example, I play the guitar and I enjoy reading and bicycling. I love sports, that’s why 3 times per week I go to the gym. Also, I like to play basketball, tennis and sometimes I can go to play football with my old friends. . It all provides me with a good balance in my life
+                I was always interested in technology and at the moment I see my own development in programing, for this, I began to learn all about programing and also english.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts" id="contacts">
+          <div class="container contacts__container">
+            <div class="contacts__wrapper-left">
+              <h2 class="header-title">Contacts</h2>
+              <ul class="contacts-list">
+                <li class="contacts-item">Discord: <a class="contacts-item-link" href="https://discordapp.com/users/263656027386281984/" target="_blank">evgeniypro</a></li>
+                <li class="contacts-item">Email: <a class="contacts-item-link" href="mailto:evgen.polotsk@gmail.com" target="_blank">evgen.polotsk@gmail.com</a></li>
+                <li class="contacts-item">Github: <a class="contacts-item-link" href="https://github.com/Evgen-pro/" target="_blank">Evgen-pro</a></li>
+                <li class="contacts-item">Telegram: <a class="contacts-item-link" href="https://t.me/evgeniypro" target="_blank">evgeniypro</a></li>
+                <li class="contacts-item">Location: Novopolotsk, Belarus</li>
+              </ul>
+            </div>
+            <div class="contacts__wrapper-right">
+              <h2 class="header-title" id="Education">Education</h2>
+              <p><b>2013 - 2016</b> Polotsk State University, oil and gas processing and industrial organic synthesizing</p>
+              <p><b>Git</b> - Complete Git and GitHub Course for Beginners</p>
+              <p><b>Udemy</b> - The Complete JavaScript + React Course - From Zero to Result</p>
+            </div>
+          </div>
+      </section>
+      <section class="code-example">
+        <div class="container">
+          <h2 class="header-title" id="code">Code example</h2>
+          <div class="code-example-row">
+              <pre>
+                <code>
+                  const myObject = {
+                    key1: true,
+                    key5: 10,
+                    key3: 'abc',
+                    key4: null,
+                    key10: NaN,
+                  }
+
+                  const objectKeys = Object.keys(myObject)
+
+                  objectKeys.forEach((key) => {
+                    if (key === 'key1' || key === 'key3') {
+                      console.log(myObject[key])
+                    }
+                  })
+                </code>
+              </pre>
+          </div>
+        </div>
+      </section>
+      <section class="my-project">
+        <div class="container contacts__container">
+          <div class="project__wrapper-left">
+            <h2 class="header-title" id="projects">My project</h2>
+            <a class="project-link" href="https://evgen-pro.github.io/resume_2023/" target="_blank"><img src="./assets/img/freelancer_cv.png" alt="freelancer_cv"><p>Freelancer CV</p></a>
+          </div>
+          <div class="skills__wrapper-right">
+            <h2 class="header-title" id="skills">Skills</h2>
+            <ul class="skills-list">
+              <li class="skills-item">HTML</li>
+              <li class="skills-item">CSS3</li>
+              <li class="skills-item">JavaScript</li>
+              <li class="skills-item">Git</li>
+              <li class="skills-item">English - B1</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_content">
+          <a href="https://github.com/Evgen-pro" class="footer__github" target="_blank"><img class="github-logo" src="./assets/img/github-mark.png" alt="logo-github"></a>
+          <p>2023</p>
+          <a href="https://rs.school/js/" class="footer-rs-school" target="_blank"><img class="rs-logo" src="./assets/img/rs_school_js.svg" alt="rs-school"></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
